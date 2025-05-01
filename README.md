@@ -35,15 +35,15 @@
     ```
 3. Скомпилируйте проект:
     ```sh
-    g++ -o main StudentManagementSystem.cpp Table.cpp Student.cpp
+    g++ -o StudentManagementSystem StudentManagementSystem.cpp Table.cpp Student.cpp
     ```
 4. Запустите программу, указав путь к файлу с данными:
     ```sh
-    ./main <путь к файлу>
+    ./StudentManagementSystem <путь к файлу>
     ```
     Например:
     ```sh
-    ./main data.txt
+    ./StudentManagementSystem data.txt
     ```
 
 ### Пример использования
@@ -57,8 +57,8 @@
     ```
 2. Скомпилируйте и запустите программу:
     ```sh
-    g++ -o main StudentManagementSystem.cpp Table.cpp Student.cpp
-    ./main data.txt
+    g++ -o StudentManagementSystem StudentManagementSystem.cpp Table.cpp Student.cpp
+    ./StudentManagementSystem data.txt
     ```
 3. Следуйте инструкциям в меню:
     ```
